@@ -31,6 +31,19 @@ This are the Input and the Output file generated from our main script:
 - Output: Two models in Pickle format. One corresponding to SVM and the other from RF.
 
 ## Visuals
+ML-Discrimination script output:
 
 [![asciicast](https://asciinema.org/a/xrGI4AFP4QYUv8FzaFY2quMDN.svg)](https://asciinema.org/a/xrGI4AFP4QYUv8FzaFY2quMDN)
+
+A workflow of the program can be seen in the image atached as workflow_TFG.
+
+Workflow of Machine Learning Classifier for PD disease: splitted in two main paths: (a) having as input a taxonomic matrix, (a1) extracting rows containing the important features selected by Boruta algorithm. (a2) A preprocessing step taking as input the matrix with the extracted features and the metadata. (a3) Finally making the prediction step with Random Forest (RF) and Support Vector Machine (SVM) taking as input the taxonomic matrix already preprocessed and (b1) the model in pickle format generated for RF and SVM. If we wanted to classify one sample, we would skip (b) path and perform only (a) path without inputting metadata as we will already have oir model saved in Pickle format.
+
+## Version requirements
+
+- R version (4.1.2)
+- Python (3.6.9)
+- Jupyter Notebook (3.7.33)
+- Centrifuge (v1.0.4_beta)
+- HUMAnN 3.0.1
 
