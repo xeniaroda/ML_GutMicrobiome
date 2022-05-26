@@ -25,7 +25,7 @@ Accuracy results of different models are compared and from the comparison the be
 
 ## Input/Output files
 In the folder named: Input Example, there is an eample of input data for our ML-Discrimination script.
-This are the Input and the Output file generated from our main script:
+These are the Input and the Output file generated from our main script:
 - Input 1: A taxonomic matrix in csv format having samples as columns and taxons as rows.
 - Input 2: A metadata in csv format having 2 columns corresponding to their samples name and the condition (1 for PD and 0 for control).
 - Output: Two models in Pickle format. One corresponding to SVM and the other from RF.
