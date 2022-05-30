@@ -11,7 +11,7 @@ Parkinson's disease (PD) is a progressive multisystem neurodegenerative disease 
 **Methods:** We have made a taxonomic analysis with the program Centrifuge and a Pathway and Gene family abundance analysis with HUMAnN3 program. Subsequetly, the three matrices generated for each analysis were trained with different ML algorithms to evaluate the classification accuracy to discrimnate between control or Parkinson patients.
 
 The script ML_product1_TFG.py is based on data mining and classification techniques to detect Parkinson's disease (PD). We developed an automated machine learning solution to detect PD by exploring 10 taxonomic variables selected by the Boruta algorithm (which is a feature selection algorithm). The dataset used for evaluation consist of 40 individuals: 20 stool samples from control subjects and 20 from PD patients.
-We use these data to build two different classification algorithms: Support Vector Machine (SVM) and Random Forest (RF). By using this models we will predict the PD and non PD status of the patients.
+We use these data to build two different classification algorithms: Support Vector Machine (SVM) and Random Forest (RF). By using these models we will predict the PD and non PD status of the patients.
 Accuracy results of different models are compared and from the comparison the best model with the relevant algorithm is shown, thus you will be able to select the best model to predict the PD status of patients. In addition, the program outputs the prediction for the given samples to be PD or control for both algorithms trained, being 0 control and 1 PD.
 
 ## Scripts generated
