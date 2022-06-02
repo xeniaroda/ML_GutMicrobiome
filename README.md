@@ -33,7 +33,7 @@ These are the Input and the Output files generated from our main script:
 ## Visuals
 ML-Discrimination script output:
 
-[![asciicast](https://asciinema.org/a/xrGI4AFP4QYUv8FzaFY2quMDN.svg)](https://asciinema.org/a/xrGI4AFP4QYUv8FzaFY2quMDN)
+<a href="https://asciinema.org/a/qQcUhHcIni4jdcLE1maLYHelT" target="_blank"><img src="https://asciinema.org/a/qQcUhHcIni4jdcLE1maLYHelT.svg" /></a>
 
 A workflow of the program can be seen in the folder named: workflow.
 
