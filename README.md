@@ -1,5 +1,5 @@
 # ML_GutMicrobiome
-This repository contains the code for a taxonomic, pathway abundance and gene family abundance analysis from different metagenomic programs of controls and Parkinson patients and a main script that trains different models from different ML approaches to discriminate between control and diseased patients. It also contains a script that takes as input the microbiome profile of samples and the generated models.
+This repository contains the code for a taxonomic, pathway abundance and gene family abundance analysis from different metagenomic programs of controls and Parkinson patients and a main script that trains different models from different ML approaches to discriminate between control and diseased patients. It also contains a script that takes as input the microbiome profile of samples and the generated models (contact the author for more information regarding the program at mail: xenia.roda@alum.esci.upf.edu).
 
 ## Name
 Analysis of the gut microbiome with Artificial Intelligence techniques for Parkinson's disease.
